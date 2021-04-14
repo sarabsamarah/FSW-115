@@ -1,0 +1,62 @@
+{
+    "appetizers":[
+        {
+            "name": "Hummus Platter",
+            "ingredients": ["chick peas", "Tahina", "drizzled olive oil", "pine nuts", "garlic"],
+            "description": "A savory dip served warm with toasted pita."
+        },
+        {
+            "name": "Zataar Flatbread",
+            "ingredients": ["Zataar blend", "olive oil", "house made dough"],
+            "description": "A delicous flatbread, served with side of labneh yogurt." 
+        }
+    ],
+    "cold sandwhichs":[
+        {
+            "name": "Feta Wrap",
+            "ingredients": ["hummous", "feta cheese", "kalamata olives", "cucumber", "cherry tomatoes", "greek dressing", "homemade pita"],
+            "description": "A vegetarian wrap, served with either french fries or chips."
+        },
+        {
+            "name": "Cold Cut Combo",
+            "ingredients": ["Salami", "Turkey", "Cheese", "red onion", "olives", "olive oil", "french roll"],
+            "description": "Twist on a classic sandwich, try it drizzled with greek dressing." 
+        }
+    ],
+    "hot sandwhich":[
+        {
+            "name": "Shawarma Wrap",
+            "ingredients": ["Chicken shawarma", "pickled beets", "tahina sauce", "homemade pita"],
+            "description": "Shredded shawarma chicken, wrapped in pickled beets and tahina sauce in a warm pita-the ideal comfort food!"
+        },
+        {
+            "name": "Falafel Wrap",
+            "ingredients": ["Falafel", "pickled beets", "tahina sauce", "feta cheese", "homemade pita"],
+            "description": "House made deep fried falafel made with your favorite tahina sauce and pickled beets, served in a warm pita-feta cheese optional."
+        }
+    ],
+    "deserts":[
+        {
+            "name": "baklava",
+            "ingredients": ["pistachio", "sugar", "phyllo dough"],
+            "description": "Assortment of traditional Baklava"
+        },
+        {
+            "name": "Kanafeh",
+            "ingredients": ["Cheese", "shredded phyllo dough", "simple syrup"],
+            "description": "Classic desert, served warm and drizzled with our simple syrup-a true treat!"
+        }
+    ],
+    "drinks":[
+        {
+            "name": "Soft Drinks",
+            "ingredients": ["Sprite", "Coke", "Diet Coke"],
+            "description": "Served with ice and lemon wedge."
+        },
+        {
+            "name": "Tea",
+            "ingredients": ["Black tea", "spearmint leaves", "sugar", "milk optional"],
+            "description": "Traditional milk tea with mint" 
+        }
+    ]
+}
