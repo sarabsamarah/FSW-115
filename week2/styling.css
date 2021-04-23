@@ -1,0 +1,17 @@
+* {
+    background-color: darkkhaki;
+    font-family: fantasy;
+     color: mediumblue;
+     text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+h1 {
+    text-decoration: underline;
+    color: rebeccapurple;
+}
