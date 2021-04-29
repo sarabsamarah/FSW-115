@@ -5,8 +5,8 @@ xhr.send();
 
 xhr.onreadystatechange = function() {
     if(xhr.readyState === 4 && xhr.status === 200) {
-        const jData = xhr.responseText;
-        const data = JSON.parse(jData);
+        const oneData = xhr.responseText;
+        const data = JSON.parse(oneData);
         displayData(data.objects);
     }
 };
