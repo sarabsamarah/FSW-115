@@ -1,0 +1,31 @@
+.nav {
+    text-align: right;
+}
+
+body{
+    text-align: end;
+    color:mediumorchid;
+    background-image:url("darth.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+button{
+    margin:25px;
+    background-color: black;
+    color:powderblue;
+    font-size: 50px;
+}
+h1{
+    font-size:65px;
+    text-align: center;
+}
+a{
+    color:palevioletred;
+    font-family: fantasy;
+}
+
+#list {
+    text-align: center;
+}
+
