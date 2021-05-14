@@ -1,0 +1,74 @@
+body {
+    font-family:fantasy;
+    margin: 0%;
+    margin-bottom: 10%;
+    background-image: url("background.jpeg");
+  }
+  #myForm {
+    padding: 5%;
+    text-align: center;
+    border-bottom: 15px double black;
+    background-image: url("marble.jpeg");
+    color: black;
+    
+  }
+  input {
+      padding:20px;
+      border:10px solid black;
+      background-color:gray;
+      font-family:cursive;
+      color: black;
+      font-weight: bold;
+      font-size: 34px;
+  }
+  h3 {
+      padding-bottom: 2%;
+      margin: 0%;
+      font-size: 45px;
+      color: black;
+  }
+  #button {
+      background-color: black;
+      color:darkcyan;
+      padding: 15px;
+      width: 250px;
+      font-family: fantasy;
+      font-size: 27px;
+  }
+
+  .todoContainer {
+    background-color: lavender;
+    text-align: center;
+    border: 5px double black;
+    padding: 2%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    color: black;
+    border-radius: 25%;
+  }
+  .button2 {
+    width: 150px;
+    display: inline-block;;
+    margin: 0 auto;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 25%;
+  }
+  .button3 {
+    width: 150px;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25%;
+  }
+nav {
+    text-align: center;
+    font-size: 65px;
+    text-decoration: underline;
+}
