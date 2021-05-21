@@ -1,0 +1,53 @@
+
+* {
+    background-color: midnightblue;
+    color: silver;
+}
+
+.container{
+    display: inline-block;
+    height: fit-content;
+}
+
+.storm {
+    height: 200%;
+}
+
+
+.title {
+    text-decoration: underline solid black;
+}
+
+body {
+    font-family: 'Kufam', cursive;
+    text-align: center;
+    background-color: lightgrey;
+}
+.btn1 {
+    border-radius: 50%;
+    font-family: 'Kufam', cursive;
+    background-color: black;
+    color: lightsalmon;
+    height: 40px;
+    border: none;
+    margin: 10px;
+}
+.btn2 {
+    border-radius: 50%;
+    font-family: 'Kufam', cursive;
+    background-color: black;
+    color: lightsalmon;
+    height: 40px;
+    border: none;
+    margin: 10px;
+}
+.btn3 {
+    border-radius: 50%;
+    font-family: 'Kufam', cursive;
+    background-color: black;
+    color:lightsalmon;
+    height: 40px;
+    border: none;
+    margin: 10px;
+}
+

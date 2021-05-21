@@ -34,7 +34,7 @@ data.forEach((todo) => {
         deleteButton.id = todo._id;
         deleteButton.addEventListener("click", deleteItem);
     
-    let completeButton = document.createElement("button");
+    let completeButton = document.createElement("checkbox");
     let completeButtonText = "";
         completeButton.className = "button3"
         todo.completed
@@ -70,7 +70,7 @@ data.forEach((todo) => {
         name: itemTitle.value,
         description: itemDescription.value,
         price: itemPrice.value,
-        completed: itemComplete.checked,
+        isComplete: itemComplete.checked,
     };
         console.log(newItem);
     axios
@@ -80,7 +80,7 @@ data.forEach((todo) => {
       })
         .catch((err) => console.log(err));
   };
-  const form = document.getElementById("form");
+  const form = document.getElementById("myForm");
   myForm.addEventListener("submit", postItem);
   
   // Delete
@@ -100,6 +100,7 @@ data.forEach((todo) => {
         isComplete = null;
         event.target.value === "true" ? (isComplete = true) : (isComplete = false);
     let updatedItem = { completed: !isComplete };
+    alert("All Done!");
     
   
     axios
